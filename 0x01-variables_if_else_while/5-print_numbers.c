@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - scripts
+ * main - Entry point
  * Description: 'prints all single digit numbers of base 10 starting from 0'
  * Return: always 0
  */
@@ -10,7 +10,7 @@ int main(void)
 
 	while (n < 10)
 	{
-		printf("%d\n", n);
+		printf("%d", n);
 		n++;
 	}
 	return (0);
